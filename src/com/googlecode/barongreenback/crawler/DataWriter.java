@@ -21,7 +21,7 @@ import com.googlecode.utterlyidle.Application;
 import com.googlecode.yadic.Container;
 
 import java.io.IOException;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -115,7 +115,7 @@ public class DataWriter implements JobExecutor<PriorityJobRunnable> {
     }
 
     private Set<Keyword<?>> mergeFields(Group<String, Triple<Definition, Sequence<Record>, CountLatch>> data) {
-        final Set<Keyword<?>> mergedFields = new HashSet<Keyword<?>>();
+        final Set<Keyword<?>> mergedFields = new LinkedHashSet<Keyword<?>>();
         for (Triple<Definition, Sequence<Record>, CountLatch> trio : data) {
             mergedFields.addAll(trio.first().fields().toList());
         }
