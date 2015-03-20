@@ -1,4 +1,3 @@
-syntax: glob
 out
 *.iws
 build/artifacts
@@ -9,7 +8,7 @@ lib/runtime
 lib/optional
 .idea/uiDesigner.xml
 .idea/copyright/profiles_settings.xml
-build/runtime.dependencies~
+*.*~
 bin
 .classpath
 .project
