@@ -1,3 +1,6 @@
+<h1><img src="https://raw.githubusercontent.com/wiki/bodar/baron-greenback/logo.png" align="bottom"/> Baron Greenback</h1>
+
+
 A Lucene based web search tool, who aims to replace Penfold!
 
 #Java Support#
