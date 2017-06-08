@@ -4,6 +4,7 @@
       <root url="file://$PROJECT_DIR$/lib/runtime" />
     </CLASSES>
     <JAVADOC />
+    <LIBRARY_FILE />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/lib/runtime" />
       <root url="file://$PROJECT_DIR$/../utterlyidle/src" />
